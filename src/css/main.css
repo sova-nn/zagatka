@@ -1,0 +1,82 @@
+.main {
+    background-color: rgb(143,83,40);
+}
+
+.main-welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.main-img {
+    position: relative;
+    z-index: 1;
+    width: 1000px;
+}
+
+.carousel-text {
+
+    z-index: 20;
+    height: 300px;
+    width: 500px;
+    border-radius: 50px;
+    position: absolute;
+    background-color: rgba(139, 69, 19, 0.5);
+
+
+}
+
+p {
+
+    color: white;
+    font-size: large;
+    text-align: center;
+    margin-top: 10px;
+
+
+}
+
+.links {
+    display: inline-flex;
+
+}
+
+.social-link {
+    display: flex;
+    justify-content: start;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.social{
+    width: 55px;
+    height: 55px;
+    margin: 10px 10px 10px 10px;
+    align-self: center;
+}
+
+.social:hover {
+    transform: rotate(360deg);
+    transition-duration: 1100ms;
+}
+
+.main-mail {
+    font-size: 27px;
+    background-color: rgba(233, 150, 122, 0.5);
+
+    height: 55px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.main-mail-div {
+    width: 60%;
+}
+
+
+
+

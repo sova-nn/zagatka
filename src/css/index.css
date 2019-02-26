@@ -1,0 +1,22 @@
+.site-wrapper {
+    background-color: rgb(64,37,18);
+}
+
+.agata {
+    position: relative;
+    min-width: 1000px;
+    width: 1000px;
+    max-width: 100%;
+    min-height: 100%;
+    margin: 0 auto -140px;
+    background-color: #fff;
+}
+
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+.agata {
+    flex-direction: column;
+}
